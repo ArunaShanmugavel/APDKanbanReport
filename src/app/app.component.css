@@ -1,0 +1,8 @@
+.kanbanreport{
+    background-color: rgb(225, 225, 225);
+    width :48%;
+    float:right;
+    height:140px;
+    padding: 3%;
+    position :relative;
+}
