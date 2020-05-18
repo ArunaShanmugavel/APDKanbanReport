@@ -5,3 +5,22 @@
     height:140px;
     position :relative;
  margin:20px; margin-top:0px;}
+
+ .scrumReport {
+    height: 80px;
+    padding: 20px 175px;
+    color: #0e0405;
+    background-color: rgb(90, 194, 212);
+}
+
+.fileuploadtxt {
+    width: 60%;
+    height: 200px;
+    float: right;
+    background-color: rgb(90, 194, 212);
+    color: #0e0405;
+    padding: 2%;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
