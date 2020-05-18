@@ -10,6 +10,5 @@ export class AppComponent {
   title = 'app3';
   
   constructor(public datePipe: DatePipe){}
-  maxDate ="05/18/2020";
-  // this.datePipe.transform(new Date(),"mm/dd/yyyy");    
+  maxDate =this.datePipe.transform(new Date(),"MM/dd/yyyy");    
 }
