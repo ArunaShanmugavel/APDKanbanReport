@@ -1,8 +1,7 @@
 .kanbanreport{
     background-color: rgb(225, 225, 225);
-    width :48%;
+    width :47%;
     float:right;
     height:140px;
-    padding: 3%;
     position :relative;
-}
+ margin:20px; margin-top:0px;}
