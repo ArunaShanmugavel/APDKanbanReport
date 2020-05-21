@@ -1,26 +1,30 @@
-.kanbanreport{
-    background-color: rgb(225, 225, 225);
-    width :47%;
-    float:right;
-    height:140px;
-    position :relative;
- margin:20px; margin-top:0px;}
-
- .scrumReport {
+.scrumReport {
     height: 80px;
-    padding: 20px 175px;
+    padding: 85px 250px;
     color: #0e0405;
-    background-color: rgb(90, 194, 212);
+    background-color:#AAFCB8;
 }
 
 .fileuploadtxt {
     width: 60%;
     height: 200px;
     float: right;
-    background-color: rgb(90, 194, 212);
+    background-color:#AAFCB8;
     color: #0e0405;
     padding: 2%;
     margin: 20px;
     border-radius: 10px;
     text-align: center;
+}
+
+label{
+    float: left;
+    width: 380px;
+    text-align: right;
+}
+
+.kanbanText{
+    float: left;
+    margin: 3px;
+    width: 160px;
 }
