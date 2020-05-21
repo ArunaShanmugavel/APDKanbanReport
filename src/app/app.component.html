@@ -1,12 +1,13 @@
 <div class="fileuploadtxt">
-     <label for="kanbanText">Enter employee names or file id:</label>
-     <input type="text" id="kanbanText">
-     <div>
-        <label for="scrumText">Select the date :<span></span></label>
-        <input type="date" id="sprintNumber" max="{{maxDate}}">
-      </div>
-     <div class="scrumReport">
-     <input type="button" value="Download Kanban Report" id="kanbanbutton"/>
-     </div>
- </div>
-  
+  <div>
+    <label>Enter employee names or file id :</label>
+    <input class="kanbanText" type="text" id="kanbanText">
+  </div>
+  <div>
+    <label>Select the date :<span></span></label>
+    <input class="kanbanText" type="date" id="sprintNumber" max="{{maxDate}}">
+  </div>
+  <div class="scrumReport">
+     <input type="button" value="Download Kanban Report" (click)="exportAsXLSX()" id="kanbanbutton"/>
+  </div>
+</div>
